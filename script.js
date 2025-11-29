@@ -12,7 +12,11 @@ galleryImages.forEach(function (img) {
         lightbox.classList.add('active');
 
         //Set the big image to be the same as the clicked image
-        lightboxImg.src = img.src;
+        //lightboxImg.src = img.src;
+
+        //Replace 400/300 with 1200/800 for bigger image
+        let bigImageUrl = img.src.replace('/400/300', '/1200/800')
+        lightboxImg.src = bigImageUrl;
     });
 });
 
