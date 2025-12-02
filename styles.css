@@ -62,7 +62,7 @@ section h2 {
 
 /* 6. Hero Section */
 #hero {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #575757 0%, #acacac 100%);
     color: white;
     text-align: center;
     min-height: 60vh;
@@ -117,9 +117,12 @@ section h2 {
     color: #555;
 }
 
+/* Price */
+
+
 /* Contact Section */
 #contact {
-    background-color: #f9f9f9;
+    background-color: white;
     text-align: center;
 }
 
