@@ -62,8 +62,8 @@ section h2 {
 
 /* 6. Hero Section */
 #hero {
-    background: linear-gradient(135deg, #575757 0%, #acacac 100%);
-    color: white;
+    background-color: #d3d0c9;
+    color: rgb(70, 70, 70);
     text-align: center;
     min-height: 60vh;
     display: flex;
@@ -74,7 +74,7 @@ section h2 {
 .hero-content h2 {
     font-size: 3rem;
     margin-bottom: 1rem;
-    color: white;
+    color: rgb(70, 70, 70);
 }
 
 .hero-content p {
